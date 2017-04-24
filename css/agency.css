@@ -344,7 +344,7 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: Futura, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 80px;
-    font-weight: 600;
+    font-weight: 900;
     text-transform: uppercase;
     font-style: bold;
     line-height: 80px;
@@ -353,8 +353,8 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     font-family: Futura,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 20px;
-    font-weight: 20;
+    font-size: 18px;
+    font-weight: 800;
     line-height: 50px;
 }
 
@@ -367,18 +367,18 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: Futura, Helvetica,Arial,sans-serif;
-        font-size: 80px;
-        font-weight: 800;
+        font-size: 90px;
+        font-weight: 900;
         text-transform: uppercase;
         font-style: bold;
-        line-height: 50px;
+        line-height: 80px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
       /*  text-transform: uppercase;*/
         font-family: Futura,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 25px;
+        font-size: 24px;
         font-weight: 100;
         line-height: 75px;
     }
@@ -786,17 +786,32 @@ aside .heading {
     margin-bottom: -40px;
 }
 
-section#about {
-    background-color: #f7f7f7;
-    background-image: url(../img/about-image.png);
+/*section#about {
+    background-color: #e2e0e0;
+    background-image: url(../img/about-image.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}*/
+
+section#services {
+    background-color: #e2e0e0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 section#specialex {
-    background-color: #f7f7f7;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section#portfolio2 {
+    background-color: #e2e0e0;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -804,35 +819,43 @@ section#specialex {
 }
 
 section#process {
-    background-color: #f7f7f7;
+    background-color: #fff;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-section#team {
-    background-color: #f7f7f7;
-    background-image: url(../img/createtogether-image.png);
+section#multidis {
+    background-color: #e2e0e0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*section#team {
+    background-color: #e2e0e0;
+    background-image: url(../img/createtogether-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     min-height: 500px;
-}
+}*/
 
 section#contact {
-    background-color: #f7f7f7;
-    background-image: url(../img/connect-image.png);
+    background-color: #e2e0e0;
+    background-image: url(../img/createtogether-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-section#contact .section-heading {
+/*section#contact .section-heading {
     color: #222;
-}
+}*/
 
 section#contact .form-group {
     margin-bottom: 25px;
