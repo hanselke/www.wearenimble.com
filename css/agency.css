@@ -153,8 +153,9 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 50px;
     text-transform: uppercase;
     font-family: Futura,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 15px;
+    font-size: 14px;
 /*    font-weight: 300;*/
+    letter-spacing: 1px;
     color: #fff;
 /*    background-color: #222;*/
 }
@@ -352,10 +353,11 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    font-family: Futura,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 50px;
+        font-family: "Helvetica Neue",Futura,Helvetica,Arial,sans-serif;
+        font-size: 24px;
+        font-weight: 200;
+                   letter-spacing: 1px;
+        line-height: 80px;
 }
 
 @media(min-width:768px) {
@@ -371,16 +373,18 @@ header .intro-text .intro-heading {
         font-weight: 900;
         text-transform: uppercase;
         font-style: bold;
+            letter-spacing: 0px;
         line-height: 80px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
       /*  text-transform: uppercase;*/
-        font-family: Futura,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Helvetica Neue",Futura,Helvetica,Arial,sans-serif;
         font-size: 24px;
-        font-weight: 100;
-        line-height: 75px;
+        font-weight: 200;
+                   letter-spacing: 1px;
+        line-height: 80px;
     }
 }
 
@@ -802,7 +806,7 @@ section#services {
     background-size: cover;
 }
 
-section#specialex {
+section#about {
     background-color: #fff;
     background-position: center;
     background-repeat: no-repeat;
@@ -818,7 +822,7 @@ section#portfolio2 {
     background-size: cover;
 }
 
-section#process {
+section#capabilities {
     background-color: #fff;
     background-position: center;
     background-repeat: no-repeat;
