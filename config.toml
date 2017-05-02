@@ -49,9 +49,9 @@ googleAnalytics = ""
     brand = "NIMBLE"
     # Optional logo as brand stored in img/
     #logo = "nimble.png"
-    process = "Capabilities"
+    capabilities = "Capabilities"
     services = "Services"
-    specialex = "About"
+    about = "About"
     portfolio2 = "Portfolio"
     contact = "Connect"
     # team = "Team"
@@ -81,27 +81,27 @@ googleAnalytics = ""
     subtitle = "Compelling content that sparks conversation"
     buttonText = "Work With Us"
 
-# process section
-  [params.process]
+# capabilities section
+  [params.capabilities]
     enable = true
-    title = "What We Do"
+    title = "Branding & Copywriting"
     subtitle = "Unearthing hidden truths to weave your story."
 
-    [[params.process.row]]
+    [[params.capabilities.row]]
 
-    [[params.process.row.list]]
+    [[params.capabilities.row.list]]
       img = "./img/process3.jpg"
-      title = "Branding"
-      description = "<b>We dig deep to make people sit up and listen</b><br>Chances are, your business has plenty to offer the world, but you don’t know how to explain what it is that you offer – or why it matters. It’s a more common problem than you think. We can help.<br>Together we’ll dig deep to uncover your core strengths today and your vision for the business tomorrow, to build a strategy and framework that concisely tells your story.<br>If you need to sculpt a brand that stands out, give Nimble a shout.<br><br><br>"
+      title = "We dig deep and make people listen"
+      description = "<br>Chances are, your business has plenty to offer the world, but you don’t know how to explain what it is that you offer – or why it matters. It’s a more common problem than you think. We can help.<br>Together we’ll dig deep to uncover your core strengths today and your vision for the business tomorrow, to build a strategy and framework that concisely tells your story.<br><br>"
       url = "#"
 
-    [[params.process.row.list]]
+    [[params.capabilities.row.list]]
       img = "./img/process2.jpg"
-      title = "Copywriting"
-      description = "<b>Uncovering the big idea and picking words that pack a punch</b><br>The average attention span of the notoriously ill-focused goldfish is nine seconds, but according to <a href=” https://advertising.microsoft.com/en/wwdocs/user/display/cl/researchreport/31966/en/microsoft-attention-spans-research-report.pdf”>this</a> new study, people now generally lose concentration after eight seconds.<br>In a world of increasing content and shrinking attention spans, Nimble’s knack is in knowing what not to say. We like it short, sweet, and dead-on.<br>We're here if you need compelling web content, a creative brand story, or a piece of writing that telepathically connects with its reader.<br><br>"
+      title = "Your brand through words that pack a punch"
+      description = "<br>The average attention span of the notoriously ill-focused goldfish is nine seconds, but according to <a href=” https://advertising.microsoft.com/en/wwdocs/user/display/cl/researchreport/31966/en/microsoft-attention-spans-research-report.pdf”>this</a> new study, people now generally lose concentration after eight seconds.<br>In a world of increasing content and shrinking attention spans, Nimble’s knack is in knowing what not to say. Be it compelling web content, a creative brand story, or writing that telepathically connects with its reader, we like it dead-on.<br><br>"
       url = "#"
 
-    # [[params.process.row.list]]
+    # [[params.capabilities.row.list]]
     #   img = "./img/process3.jpg"
     #   title = "Express the Brand"
     #   description = "Following our strategies, we finalize the design of all touchpoints and various other brand assets as we begin to express the brand across appropriate media channels.<br><br><br><br>"
@@ -168,8 +168,8 @@ googleAnalytics = ""
   #     category = "Category"
   #     buttonText = "Close project"
 
-    #Specialex section
-  [params.specialex]
+    #about section
+  [params.about]
     enable = true
     title = "About"
     subtitle = "We are a small group of creative thinkers and problem solvers."
