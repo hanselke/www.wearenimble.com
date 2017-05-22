@@ -348,14 +348,14 @@ header .intro-text .intro-lead-in {
     font-weight: 900;
     text-transform: uppercase;
     font-style: bold;
-    line-height: 80px;
+    line-height: 100px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
         font-family: "Helvetica Neue",Futura,Helvetica,Arial,sans-serif;
-        font-size: 24px;
-        font-weight: 200;
+        font-size: 25px;
+        font-weight: 300;
                    letter-spacing: 1px;
         line-height: 80px;
 }
@@ -374,15 +374,15 @@ header .intro-text .intro-heading {
         text-transform: uppercase;
         font-style: bold;
             letter-spacing: 0px;
-        line-height: 80px;
+        line-height: 100px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
       /*  text-transform: uppercase;*/
         font-family: "Helvetica Neue",Futura,Helvetica,Arial,sans-serif;
-        font-size: 24px;
-        font-weight: 200;
+        font-size: 25px;
+        font-weight: 300;
                    letter-spacing: 1px;
         line-height: 80px;
     }
@@ -814,13 +814,13 @@ section#about {
     background-size: cover;
 }
 
-section#portfolio2 {
+/*section#portfolio2 {
     background-color: #e2e0e0;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
+}*/
 
 section#capabilities {
     background-color: #fff;
