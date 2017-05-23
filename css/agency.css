@@ -348,7 +348,7 @@ header .intro-text .intro-lead-in {
     font-weight: 900;
     text-transform: uppercase;
     font-style: bold;
-    line-height: 100px;
+    line-height: 80px;
 }
 
 header .intro-text .intro-heading {
@@ -357,7 +357,7 @@ header .intro-text .intro-heading {
         font-size: 25px;
         font-weight: 300;
                    letter-spacing: 1px;
-        line-height: 80px;
+        line-height: 20px;
 }
 
 @media(min-width:768px) {
