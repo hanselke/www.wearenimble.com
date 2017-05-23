@@ -340,15 +340,15 @@ header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
 }
-
+/*this is for mobile*/
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: Futura, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 900;
     text-transform: uppercase;
     font-style: bold;
-    line-height: 80px;
+    line-height: 90px;
 }
 
 header .intro-text .intro-heading {
@@ -357,7 +357,7 @@ header .intro-text .intro-heading {
         font-size: 25px;
         font-weight: 300;
                    letter-spacing: 1px;
-        line-height: 20px;
+        line-height: 40px;
 }
 
 @media(min-width:768px) {
@@ -365,7 +365,7 @@ header .intro-text .intro-heading {
         padding-top: 300px;
         padding-bottom: 200px;
     }
-
+/*this is for desktop viewing*/
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: Futura, Helvetica,Arial,sans-serif;
