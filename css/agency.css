@@ -344,20 +344,20 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: Futura, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 900;
     text-transform: uppercase;
     font-style: bold;
-    line-height: 90px;
+    line-height: 80px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
         font-family: "Helvetica Neue",Futura,Helvetica,Arial,sans-serif;
-        font-size: 25px;
-        font-weight: 300;
+        font-size: 18px;
+        font-weight: 200;
                    letter-spacing: 1px;
-        line-height: 60px;
+        line-height: 26px;
 }
 
 @media(min-width:768px) {
@@ -369,8 +369,8 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: Futura, Helvetica,Arial,sans-serif;
-        font-size: 90px;
-        font-weight: 900;
+        font-size: 100px;
+        font-weight: 800;
         text-transform: uppercase;
         font-style: bold;
             letter-spacing: 0px;
