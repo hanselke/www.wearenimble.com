@@ -715,7 +715,7 @@ section h3.section-subheading {
   justify-content: center;
 }
 
-.team-member {
+/*.team-member {
     margin-bottom: 50px;
     text-align: center;
 }
@@ -774,7 +774,7 @@ section h3.section-subheading {
 .team-bio {
     padding: 15px
 }
-
+*/
 @media(min-width:992px) {
     aside.clients img {
         margin: 50px auto;
