@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wearenimble.com/landing/</loc>
+    <loc>https://wearenimble.com/landing.html</loc>
     <lastmod>2017-04-22T16:48:05+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wearenimble.com/categories/</loc>
+    <loc>https://wearenimble.com/categories.html</loc>
     <priority>0</priority>
   </url>
   
@@ -19,7 +19,7 @@
   </url>
   
   <url>
-    <loc>https://wearenimble.com/tags/</loc>
+    <loc>https://wearenimble.com/tags.html</loc>
     <priority>0</priority>
   </url>
   
